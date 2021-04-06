@@ -98,35 +98,47 @@
 <p>Em todos os episódios, ao encontrar o inimigo (geralmente um monstro Bionóide), Jiban ejetava seu distintivo de sua cintura e apresentava-se como "Sou do Serviço Secreto do Setor de Segurança, Policial de Aço Jiban (Keishichō Himitsu Sōsakan Keishisei, Kidō Keiji Jiban). Em seguida, lia as cláusulas da "Cláusulas da Lei Biolon" (ai Baioron Hō?), um código de leis próprio. Nitidamente inspirado nas "Diretivas" do personagem norte-americano "Robocop" (porém, dando-lhe uma maior liberdade de ação ao invés de restringi-las), a lei possuía várias cláusulas, mas somente algumas são lidas ao longo da série:</p>
 
 <h1>Formulário de Cadastro</h1>
-<!-- Aqui: abertura de um formulário -->
-<form action="mailto:jpaulobv@unigranrio.edu.br" method="post">
-	<fieldset>
-		<legend>Identificação do Usuário</legend>
-	<!-- Aqui: campo para o usuário digitar o nome -->
-		<p><label for="nome">Nome:</label>
-			<input type="text" id="Nome" size="25" maxlength="30"  placeholder="Nome Completo" autofocus>
-	<!-- Aqui: campo para o usuário digitar o e-mail -->
-		<p>
-			<label for="email">E-mail:</label>
-			<input type="email" id="email" size="30" maxlength="40" placeholder="8 digitos">
-		</p>
-	<!-- Aqui: caixa de seleção (para escolher o assunto) com os itens dúvida / crítica / sugestão -->
-		<label for="feedback">Feedback:</label>
-		<select id="feedback">
-			<p>
-				<!--<optgroup label="feedback">-->
-					<option value="duvida">Dúvida</option>
-					<option value="critica">Crítica</option>
-					<option value="sugestao">Sugestão</option>
-				<!--</optgroup>-->
-			</p>
-		</select>
-	<!-- Aqui: área de texto para o usuário digitar a mensagem -->
+<style>
+	.body{font-family: arial, Helvetica, sans-serif}
+	.content: {display: flex;justify-content: center;}
+	.contato{width: 100%;max-width: 500px}
+	.form{display: flex;flex-direction: column;}
+	.field{padding: 10px;margin-bottom: 15px; border:1px solid #DDD;border-radius: 5px;font-family: arial, Helvetica, sans-serif;font-size: 16px}
+	textarea{height: 150px;}
+</style> 
 
-	<!-- Aqui: botão para envio do formulário -->
-		<p><input type="submit" value="Cadastrar Usuário"></p>
-<!-- Aqui: fechamento do formulário -->
-	</fieldset>
+
+
+
+</head>
+<body>
+<hr hr size = 7>
+	<section>
+		
+			<div class="content">
+				
+				<form class="form" method="post" >
+					<input class="field" id="name" placeholder="Nome">
+					<input class="field" id="email" placeholder="E-mail">
+					<hr hr size = 7>
+					<label for="feedback">Feedback:</label>
+						<select id="feedback">
+				<p>
+					<!--<optgroup label="feedback">-->
+						<option value="duvida">Dúvida</option>
+						<option value="critica">Crítica</option>
+						<option value="sugestao">Sugestão</option>
+					<!--</optgroup>-->
+				</p>
+				<hr hr size = 7>
+					<textarea class="field" id="mensagem" placeholder="Digite usa mensagem aqui"></textarea>
+					<input type="submit" id="Enviar">
+				</form>
+			</div>
+
+
+
+	</section>
 
 <!-- Abaixo: um bloco de endereço -->
 Web designers: 
@@ -136,7 +148,7 @@ Web designers:
 E-mail: seu e-mail dos componentes do grupo
 <br>leonardool@unigranrio.br</br>
 <!-- Aqui: uma quebra de linha -->
-Todos os direitos reservados <!-- Aqui: um símbolo de copyright --> 2021
+Todos os direitos reservados <!-- Aqui: um símbolo de copyright --> 202
 
 </body>
 </html>
