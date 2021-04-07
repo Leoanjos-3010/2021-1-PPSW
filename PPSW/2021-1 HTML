@@ -16,12 +16,12 @@
 <h1>Tokusatsu</h1>
 
 <hr hr size = 7>
-<!-- Aqui: uma linha horizontal  -->
+
 <!-- Aqui: um link de âncora interna  -->Jaspion |
 <!-- Aqui: uma linha horizontal  -->Changeman |
 <!-- Aqui: uma linha horizontal  -->Jiraiya |
 <!-- Aqui: uma linha horizontal  -->Jiban
-<!-- Aqui: uma linha horizontal  -->
+
 <hr hr size = 7>
 
 <!-- Abaixo: um parágrafo -->
@@ -31,7 +31,7 @@
 <!-- Aqui: uma linha horizontal  -->
 <hr hr size=7>
 <!-- Aqui: é exibida a imagem "tokusatsu.png" -->
-<img src="/tokusatsu.png" title="Tokusatsu">
+<img src="./Tokusatsu/tokusatsu.png" >
 <!-- Aqui: uma linha horizontal  -->
 <hr hr size=7>
 <!-- Abaixo: um parágrafo -->
@@ -142,13 +142,13 @@
 
 <!-- Abaixo: um bloco de endereço -->
 Web designers: 
-<br>Leonardo dos Anjos</br>
+<br>Leonardo dos Anjos, Henrique Diniz, Ramom Fernando da Silva Rosa</br>
 
 <!-- Aqui: uma quebra de linha -->
-E-mail: seu e-mail dos componentes do grupo
+E-mail:
 <br>leonardool@unigranrio.br</br>
 <!-- Aqui: uma quebra de linha -->
-Todos os direitos reservados <!-- Aqui: um símbolo de copyright --> 202
+<br>Todos os direitos reservados</br> <!-- Aqui: um símbolo de copyright --> 2021
 
 </body>
 </html>
